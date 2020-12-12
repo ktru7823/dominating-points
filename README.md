@@ -29,4 +29,4 @@ Input explanation:
 Output:  
 For each point, output the number of points that they dominate.  
 
-Example of valid input (n10_0.in) and expected output (n10_0.out) are provided in the repo for both the 2D and 3D version of the solution.
+Example of valid input (n10_0.in) and expected output (n10_0.out) are provided in the repo for both the 2D and 3D version of the problem.
