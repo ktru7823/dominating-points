@@ -7,16 +7,23 @@ This program uses a divide and conquer algorithm on a set of points to assign a 
 In the above example, p1 has a value of "3", since it dominates p2, p3, and p4.
 
 Input is taken line-by-line from stdin.  
-Input format:  
+Input format (2D):  
 >n  
 p1(x) p1(y)  
 p2(x) p2(y)  
 ...  
 pn(x) pn(y)  
 
+Input format (3D):  
+>n  
+p1(x) p1(y) p1(z)  
+p2(x) p2(y) p2(z)  
+...  
+pn(x) pn(y) pn(z)  
+
 Input explanation:
 - Define the number of points, "n".
-- List the x and y coordinates of each point, one point per line.
+- List the coordinates of each point, one point per line.
 
 Output:  
 For each point, output the number of points that they dominate.  
